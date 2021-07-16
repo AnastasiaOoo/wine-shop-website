@@ -1,0 +1,259 @@
+$accent: #998431
+$dark: #282828
+
+
+*
+    margin: 0
+    padding: 0
+
+a
+    text-decoration: none
+body
+   font-family: 'Montserrat', sans-serif 
+td
+    padding: 15px
+    border: 1px solid black
+table
+    border-collapse: collapse
+    margin-bottom: 30px
+.header
+    background-image: url(img/bgc.jpg)
+    background-repeat: no-repeat
+    padding-left: calc(50% - 400px)
+    padding-right: calc(50% - 400px)
+    font-family: 'Montserrat', sans-serif
+    background-size: 100%
+    padding-bottom: 150px
+    &_topinfo
+        &_info
+            display: flex
+            justify-content: space-between
+            &_adress, &_number
+                font-weight: 500
+                font-size: 13px
+                line-height: 150%
+                color: white
+                margin-top: 20px
+                margin-bottom: 20px
+    &_nav
+        display: flex
+        justify-content: space-around
+        margin-bottom: 430px
+        &_a, &_a_catalog, &_a_contacts
+            font-size: 14px
+            line-height: 150%
+            color: white
+            border: 1px white solid
+            padding-top: 13px
+            padding-bottom: 13px
+            width: 100%
+            text-align: center
+            font-family: 'Montserrat', sans-serif
+            &_catalog
+                border-left: none
+            &_contacts
+                border-right: none
+    &_buttons
+        text-align: center
+        &_left, &_right
+            font-weight: 500
+            font-size: 16px
+            line-height: 20px
+            color: white
+            padding: 15px 30px
+            background-color: $accent
+            margin-right: 30px
+.block
+    &_aboutwine
+        background-color: $dark
+        padding: 50px 300px
+        text-align: center
+        &_border
+            border: 3px white solid
+        &_heading
+            font-weight: bold
+            font-size: 30px
+            line-height: 150%
+            color: white
+            margin: 50px
+        &_hr
+            margin-right: 300px
+            margin-left: 300px
+            margin-bottom: 50px
+        &_text
+            font-size: 14px
+            line-height: 150%
+            color: white
+            margin-left: 150px
+            margin-right: 150px
+        &_img
+            margin: 45px
+    &_newwine
+        background-color: #E6E3C4
+        padding: 50px 300px
+        &_border
+            border-top: solid $accent 1px
+            border-bottom: solid $accent 1px
+            display: flex
+            flex-direction: row
+            padding-bottom: 50px
+            padding-top: 50px
+        &_newcollection
+            font-size: 16px
+            line-height: 150%
+            margin-bottom: 30px
+        &_heading
+            font-size: 32px
+            line-height: 150%
+            margin-bottom: 30px
+        &_hr
+            margin-right: 200px
+            margin-bottom: 30px
+        &_text
+            font-size: 12px
+            line-height: 150%
+            margin-bottom: 30px
+        &_winedate
+            font-size: 12px
+            line-height: 150%
+        &_winename
+            font-weight: bold
+            font-size: 16px
+            line-height: 150%
+        &_winedescription
+            font-size: 12px
+            line-height: 150%
+            margin-top: 5px
+        &_tdborder1
+            border-left: none
+            border-top: none
+        &_tdborder2
+            border-top: none
+            border-right: none
+        &_tdborder3
+            border-left: none
+        &_tdborder4
+            border-right: none
+        &_tdborder5
+            border-left: none
+            border-bottom: none
+        &_tdborder6
+            border-right: none
+            border-bottom: none
+        &_button
+            font-weight: 500
+            font-size: 16px
+            line-height: 20px
+            color: white
+            background-color: $accent
+            padding: 15px 30px
+        &_littleimgs
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+        &_bigimg
+            width: 450px
+            margin-bottom: 30px
+        &_littleimg
+            width: 220px
+    &_registration
+        background-color: $dark
+        padding: 80px 300px
+        position: relative
+        &_border
+            border: 3px solid white
+            padding: 0 250px
+        &_leftimg
+            position: absolute
+            z-index: 2
+            top: 0px
+            left: 200px
+        &_rightimg
+            position: absolute
+            z-index: 2
+            top: 50px
+            right: 200px
+        &_heading
+            font-weight: bold
+            font-size: 36px
+            line-height: 150%
+            text-align: center
+            color: white
+            
+            background-color: $dark
+        &_hr
+            margin-top: 65px
+            margin-bottom: 40px
+        &_text
+            font-size: 16px
+            line-height: 150%
+            text-align: center
+            color: white
+            margin-bottom: 60px
+        &_name, &_tel, &_adress
+            background-color: $dark
+            border: none
+            border-bottom: 1px white solid
+            width: 100%
+            font-weight: 500
+            font-size: 11px
+            line-height: 150%
+            padding-bottom: 10px
+            padding-top: 30px
+            color: white
+        &_namenumber
+            display: flex
+            flex-direction: row
+        &_name
+            margin-right: 10px
+        &_button
+            background-color: $dark
+            border: 1px solid white
+            width: 100%
+            padding: 15px
+            margin: 60px 0
+            font-weight: 500
+            font-size: 16px
+            line-height: 20px
+            color: white
+            letter-spacing: 0.05em
+            text-transform: uppercase
+.footer
+    background-color: $accent
+    padding: 50px 300px
+    font-family: 'Montserrat', sans-serif 
+    &_nav
+        border-top: white solid 1px
+        display: flex
+        justify-content: space-between
+        padding: 20px
+    &_a
+        font-size: 14px
+        line-height: 150%
+        color: white
+    &_social
+        display: flex
+        justify-content: space-around
+    &_bottom
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        text-align: center
+        &_border
+            width: 100%
+            border: 1px solid white
+            padding: 20px
+            font-weight: 600
+            font-size: 14px
+            line-height: 150%
+            color: white
+
+.left
+    border-left: none
+.right
+    border-right: none
+
+
+
+
+
